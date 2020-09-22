@@ -27,9 +27,14 @@ def sum_array(array)
   array.inject(:+)
 end
 
-def kesha_maker (array)
+def kesha_maker(array)
   array.collect do |element|
   element[2] = "$"
   element
   end
+end
+
+def swap_elements(array)
+  array[1], array[2] = array[2], array[1]
+  array
 end
