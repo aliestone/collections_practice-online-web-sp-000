@@ -39,7 +39,7 @@ def swap_elements(array)
   array
 end
 
-def add_s (array)
+def add_s(array)
   array.collect.with_index do |word, index|
     if index == 1
       word
